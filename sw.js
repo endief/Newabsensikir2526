@@ -4,10 +4,8 @@ const urlsToCache = [
   'index.html',
   'manifest.json',
   'https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js',
-  'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js',
   'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',
-  'https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js',
-  'https://www.gstatic.com/firebasejs/9.23.0/firebase-database-compat.js'
+  'https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js'
 ];
 
 self.addEventListener('install', event => {
