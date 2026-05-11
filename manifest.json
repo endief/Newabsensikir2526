@@ -1,6 +1,6 @@
 {
   "name": "Absensi KIR SMAN 1 Lemahabang",
-  "short_name": "Absensi KIR",
+  "short_name": "Absensi Digital KIR",
   "description": "Aplikasi absensi digital untuk Kelompok Ilmiah Remaja SMAN 1 Lemahabang",
   "start_url": "/",
   "display": "standalone",
