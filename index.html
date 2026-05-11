@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Absensi Digital KIR - SMAN 1 LEMAHABANG</title>
+    <link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#00d4ff">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-database-compat.js"></script>
@@ -856,6 +858,18 @@
 
             document.getElementById('confirmYes').addEventListener('click', btnYes);
             document.getElementById('confirmNo').addEventListener('click', btnNo);
+        }
+
+        if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then((registration) => {
+        console.log('Service Worker registered with scope:', registration.scope);
+      })
+      .catch((error) => {
+        console.log('Service Worker registration failed:', error);
+      });
+  });
         }
     </script>
 </body>
