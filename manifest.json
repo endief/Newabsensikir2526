@@ -1,28 +1,21 @@
 {
-  "name": "Absensi KIR SMAN 1 Lemahabang",
-  "short_name": "Absensi Digital KIR",
-  "description": "Aplikasi absensi digital untuk Kelompok Ilmiah Remaja SMAN 1 Lemahabang",
-  "start_url": "/",
+  "name": "Absensi Digital KIR SMAN 1 Lemahabang",
+  "short_name": "Absensi Digital KIR Smansala",
+  "start_url": ".",
   "display": "standalone",
-  "background_color": "#050505",
-  "theme_color": "#00d4ff",
-  "orientation": "portrait-primary",
+  "background_color": "#f8fafc",
+  "theme_color": "#0ea5e9",
+  "description": "Aplikasi absensi digital untuk anggota KIR",
   "icons": [
     {
-      "src": "https://i.postimg.cc/XJCS4Wby/KIR.png",
+      "src": "https://hwljckozqobryksiliip.supabase.co/storage/v1/object/public/foto-absensi/SMANSALA.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "https://i.postimg.cc/XJCS4Wby/KIR.png",
+      "src": "https://hwljckozqobryksiliip.supabase.co/storage/v1/object/public/foto-absensi/SMANSALA.png",
       "sizes": "512x512",
       "type": "image/png"
-    },
-    {
-      "src": "https://i.postimg.cc/XJCS4Wby/KIR.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
     }
   ]
 }
